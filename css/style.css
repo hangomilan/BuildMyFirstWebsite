@@ -4,14 +4,15 @@ html, body {
   flex-direction: column;
   font-weight: 100;
   line-height: 1.2;
-  background-color: yellow;
+  background: radial-gradient(circle, #fff 20%, #ccc);
+
 }
 
 h1 {
     font-size: 21px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-color: #fff;
-    background-color: gold;
+    background: radial-gradient(circle, #fff 20%, gold);
     color: blue;
 
 }
@@ -21,7 +22,7 @@ nav {
   border: 2px solid;
   border-color: white;
   border-right: none;
-  background-color: gold;
+  background: radial-gradient(circle, #fff 20%, gold);
 
 }
 
@@ -33,15 +34,18 @@ nav li {
 
 nav a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
+
 }
 
 nav a:hover {
     text-decoration: underline;
+
 }
 
 img {
     border: 20px solid;
     float: none;
     margin: 0 0 40px 10px;
+
 }
