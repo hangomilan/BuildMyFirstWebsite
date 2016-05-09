@@ -1,0 +1,47 @@
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 100;
+  line-height: 1.2;
+  background-color: yellow;
+}
+
+h1 {
+    font-size: 21px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: #fff;
+    background-color: gold;
+    color: blue;
+
+}
+
+nav {
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  border: 2px solid;
+  border-color: white;
+  border-right: none;
+  background-color: gold;
+
+}
+
+nav li {
+  margin: 20px;
+  padding: 4px;
+  display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+img {
+    border: 20px solid;
+    float: none;
+    margin: 0 0 40px 10px;
+}
